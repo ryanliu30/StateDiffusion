@@ -1,0 +1,14 @@
+env_name: HalfCheetah-v4
+exp_name: halfcheetah
+
+base_config: dynamics
+log_dir: halfcheetah_data
+num_layers: 2
+hidden_size: 256
+
+replay_buffer_capacity: 100000
+num_iters: 50
+initial_batch_size: 5000
+batch_size: 5000
+num_agent_train_steps_per_iter: 1500
+num_eval_trajectories: 50
